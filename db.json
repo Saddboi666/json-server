@@ -33,12 +33,12 @@
     {
       "id": 6,
       "name": "Customer Service"
-    },
+    }
     
   ],
   "users": {
     "id": 1,
     "username": "mcfeenik",
-    "email": "mcfeenik@gmail.com",
+    "email": "mcfeenik@gmail.com"
   }
 }
