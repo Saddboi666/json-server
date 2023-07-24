@@ -1,31 +1,46 @@
 {
-  "posts": [
+  "staff": [
     {
       "id": 1,
-      "title": "Post 1"
+      "first_name": "Nikolas",
+      "last_name": "McFee",
+          "email": "mcfeenik@gmail.com",
+      "department_id": 1,
+        "user_id": 1
+        
+      
     },
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Accounting and Finance"
+   },
     {
       "id": 2,
-      "title": "Post 2"
+      "name": "Operations"
     },
-    {
+        {
       "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
+      "name": "Research and Development"
+   },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 4,
+      "name": "Marketing and Sales"
     },
+        {
+      "id": 5,
+      "name": "Human Resources"
+   },
     {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
+      "id": 6,
+      "name": "Customer Service"
+    },
+    
   ],
-  "profile": {
-    "name": "typicode"
+  "users": {
+    "id": 1,
+    "username": "mcfeenik",
+    "email": "mcfeenik@gmail.com",
   }
 }
